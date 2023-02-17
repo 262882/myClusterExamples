@@ -9,3 +9,8 @@ Check job queue using:
 ```
 squeue
 ```
+
+Push files over ssh connection to the cluster:
+```
+scp <source directory>/<file> <address>:<target directory>
+```
