@@ -3,10 +3,11 @@
 #SBATCH --nodes=1
 #SBATCH --time=00:01:00
 #SBATCH --job-name=bashrun
-#SBATCH --partition=batch
-#SBATCH -o ./results/
 
+# Test some shell cmds
 whoami
-sleep 3
 hostname
 date
+
+# Test python cmds
+python3 pyrun.py
