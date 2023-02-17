@@ -1,3 +1,11 @@
 # myClusterExamples
-Run shell scripts with sbatch command
-Check queue using squeue
+
+Run example bash and python scripts that are executed on the cluster, with the outputs recorded in the ./results folder:
+```
+./run.sh
+```
+
+Check job queue using:
+```
+squeue
+```
