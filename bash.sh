@@ -9,5 +9,6 @@ whoami
 hostname
 date
 
-# Test python cmds
-python3 pyrun.py
+# Test python 
+python3 pyrun.py  # Python script
+jupyter nbconvert --execute --to notebook --inplace testBook.ipynb  # Python notebook
