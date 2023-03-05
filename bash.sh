@@ -8,6 +8,7 @@
 whoami
 hostname
 date
+cat /etc/lsb-release
 
 # Test python 
 python3 py.py  # Python script
