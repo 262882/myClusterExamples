@@ -16,9 +16,9 @@ scp <source directory>/<file> <address>:<target directory>
 ```
 
 Fetch files over ssh from the cluster
-'''
+```
 scp <address>:<source directory>/<file> /<target directory>
-'''
+```
 
 # Singularity Install
 ```
