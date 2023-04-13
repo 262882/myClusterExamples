@@ -15,6 +15,11 @@ Push files over ssh connection to the cluster:
 scp <source directory>/<file> <address>:<target directory>
 ```
 
+Fetch files over ssh from the cluster
+'''
+scp <address>:<source directory>/<file> /<target directory>
+'''
+
 # Singularity Install
 ```
 conda install -c conda-forge singularity
