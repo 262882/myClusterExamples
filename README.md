@@ -12,12 +12,12 @@ squeue
 
 Push files over ssh connection to the cluster:
 ```
-scp <source directory>/<file> <address>:<target directory>
+scp <source directory/file> <address>:<target directory>
 ```
 
 Fetch files over ssh from the cluster
 ```
-sudo scp <address>:<source directory>/<file> /<target directory>
+scp <address>:<source directory/file> <target directory>
 ```
 
 # Singularity Install
