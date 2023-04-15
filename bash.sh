@@ -12,6 +12,7 @@ cat /etc/lsb-release
 
 # Test python 
 python3 py.py  # Python script
+python3 gpu.py  # Python script
 
 # Test singularity
 singularity pull ubuntu.sif library://ubuntu:20.04
