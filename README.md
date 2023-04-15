@@ -20,6 +20,11 @@ Fetch files over ssh from the cluster
 scp <address>:<source directory/file> <target directory>
 ```
 
+Watch slurm output
+```
+watch -n 1 tail <file>
+```
+
 # Singularity Install
 ```
 conda install -c conda-forge singularity
