@@ -10,9 +10,9 @@ Check job queue using:
 squeue
 ```
 
-Push files over ssh connection to the cluster:
+Push folder over ssh connection to the cluster:
 ```
-scp <source directory/file> <address>:<target directory>
+scp -r <source directory/file> <address>:<target directory>
 ```
 
 Fetch files over ssh from the cluster
